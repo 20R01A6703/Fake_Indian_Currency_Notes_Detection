@@ -1,0 +1,30 @@
+body{
+    background-color: beige;
+    padding-bottom: 50px;
+    
+    padding-left: 30px;
+}
+#uploaded{
+    display: block;
+    width: 50%;
+}
+.data{
+    left: 500px;
+    right: 500px;
+    text-align: center;
+    transform: translate(350px,50px);
+}
+.data th{
+    text-align: center;
+    border-color: black;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.data td{
+    border-collapse: collapse;
+    border-color: black;
+    border: 2px solid black;
+}
+.data{
+    border: 2px solid black;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Currency Detector</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+    
+    <div class="bg-info p-3 rounded-lg m-3" style="text-align: center;">
+        <h1>Fake Indian Currency Note Detection Using Image Processing</h1>
+        <br>
+        <form method="post" enctype="multipart/form-data">
+            <p><b>Upload Currency Image Here:</b><p><input type="file" name="file"style="background-color:white;" >
+            <br><br>
+            <input type="submit" value="Upload" style=" background-color:lightgreen;color: black;border-radius: 5px;">
+            
+        </form>
+        
+    </div>
+    <p style="text-align: center;font-size:30px;">Reference Image Of Features</p>
+    <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+            <img src="{{url_for('static',filename='500_Features/500_feature.jpg')}}" style="height: 300px;width: 600px;" alt="Feature 1">
+            
+        </div>
+    </div>
+    
+    
+</body>
